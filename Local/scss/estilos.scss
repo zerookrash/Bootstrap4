@@ -1,0 +1,28 @@
+// -----------------------------------
+//        PATRON DE COLORES
+// ------------------------------------
+$texto: #000;
+$principal: #882288;
+$secundario: orange;
+// ------------------------------------
+//        ESTILOS DE PRUEBA
+// ------------------------------------
+.container {
+    border: 1px solid red;
+}
+
+.row {
+    border: 1px solid blue;
+}
+
+.row>* {
+    border: 3px solid green;
+}
+
+.bg-primary {
+    background-color: #d21327 !important
+}
+
+.servicios>* {
+    border: 1px solid red;
+}
